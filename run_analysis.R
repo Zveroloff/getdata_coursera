@@ -46,3 +46,6 @@ names(data.labeled) <- var.names
 library(data.table)
 data.labeled <- data.table(data.labeled)
 data.avg <- data.labeled[, lapply(.SD, mean), by = ac.name]
+
+## Out to file
+wrtite.table(data.avg, "resultSet.txt", row.names = F)
