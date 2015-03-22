@@ -29,5 +29,7 @@ It is divided into training an test sets.
 -README.txt
 ```
 
-During the processing only the variables storing the mean and standard deviation values for measurements.
+During the processing only the variables storing the mean and standard deviation values for measurements were used.
 According to feature_info.txt, this values were marked with mean() and std() subsequently.
+
+The results (resultSet.txt) contains the mean values for the mean and standard deviation for each variable for each activity.
